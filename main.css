@@ -6,6 +6,7 @@ padding: 0;
 
 header {
     width: 1024px;
+    height: 430px;
     margin: 0 auto;
     background-color: #d9d9d9;
 }
@@ -47,16 +48,11 @@ a:visited {
     color: #565656;
 }
 
-.phone {
-    color: black;
-}
-
-.email {
-    color: black;
-}
-
+.phone,
+.email,
 .skype {
     color: black;
+    padding-top: 5px;
 }
 
 .summary,
