@@ -1,0 +1,67 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+
+header {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: #d9d9d9;
+}
+
+.person {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.foto {
+    width: 300px;
+    padding: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+.phone {
+
+}
+
+.email {
+
+}
+
+.skype {
+
+}
+
+h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.gratitude {
+    width: 1024px;
+    height: 45px;
+    margin: 0 auto;
+    background-color: #d9d9d9;
+    display: flex;
+}
+
+.gratitude p {
+    font-weight: bold;
+}
