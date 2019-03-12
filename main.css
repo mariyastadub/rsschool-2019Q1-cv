@@ -1,0 +1,96 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+
+header {
+    width: 1024px;
+    height: 430px;
+    margin: 0 auto;
+    background-color: #d9d9d9;
+}
+
+.person {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.contact {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+.foto {
+    width: 300px;
+    padding: 25px;
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #565656;
+}
+
+.phone,
+.email,
+.skype {
+    color: black;
+    padding-top: 5px;
+}
+
+.summary,
+.skills,
+.code-examples,
+.experience,
+.education,
+.english-level{
+    margin-left: 55px;
+}
+
+h3 {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    margin-left: 30px;
+}
+
+.gratitude {
+    width: 1024px;
+    height: 45px;
+    margin: 0 auto;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gratitude p {
+    font-weight: bold;
+}
